@@ -4,7 +4,7 @@ function init(){
 	/* Tilestream Layer example: */
 	var landshadeUrl = "/tiles/v2/landShade/{z}/{x}/{y}.png",
 		landshade = new L.TileLayer(landshadeUrl, {maxZoom: 12}); 
-	
+	//
 	/* ESRI tiled service example: */
 	/* var natGeoLayer = new L.TileLayer.ESRI("http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer");*/
 	//var worldTransportation = new L.TileLayer.ESRI("http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer");
